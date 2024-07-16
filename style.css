@@ -1,0 +1,100 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.goodBox img {
+    width: 15vh;
+    border-radius: 100%;
+    padding: 2.5%;
+    margin-top: 7.5%;
+
+}
+
+.goodBox {
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    width: 40vh;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 10%;
+    align-items: center;
+    border-radius: 5%;
+    height: auto;
+    padding: 2.5vh;
+}
+
+.nome {
+    color: snow;
+    font-size: 30px;
+    padding: 1.5%;
+    margin: 1%;
+    padding-bottom: 1%;
+
+}
+
+.lugar {
+    padding: 2.5%;
+    padding-top: 0%;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+
+}
+
+.descricao {
+
+    font-size: 16px;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 500;
+    padding: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    text-align: center;
+    width: auto;
+}
+
+.click {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    margin: 0.250vh;
+    font-size: 15px;
+    font-weight: 700;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    background-color: black;
+    padding: 1vh;
+    width: 25vh;
+    font-family: "Inter", sans-serif;
+}
+
+.click:hover{
+    background-color:hsl(75, 94%, 57%);
+    border-color:hsl(75, 94%, 57%) ;
+}
+
+.attribution{
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 1vh;
+}
